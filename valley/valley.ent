@@ -1,0 +1,125 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/ambience/jedi_cloud_idle.wav"
+"spawnflags" "1"
+"origin" "-2040 -496 56"
+"targetname" "quite_force"
+}
+{
+"classname" "target_speaker"
+"noise" "sound/ambience/jedi_cloud_lp.wav"
+"spawnflags" "2"
+"origin" "-2056 -488 56"
+"targetname" "loud_force"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "2"
+"targetname" "cin11_sound1"
+"origin" "1548 -60 2"
+"soundSet" "desann_cockpit"
+}
+{
+"classname" "fx_runner"
+"spawnflags" "0"
+"fxfile" "env/pool"
+"delay" "500"
+"origin" "-2042 -510 64"
+}
+{
+"classname" "fx_runner"
+"spawnflags" "1"
+"fxfile" "env/pool2"
+"delay" "500"
+"origin" "-2042 -510 64"
+"targetname" "pool_middle"
+}
+{
+"classname" "fx_runner"
+"spawnflags" "0"
+"fxfile" "env/pool"
+"delay" "500"
+"origin" "-2042 -510 64"
+"targetname" "pool_start"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/cinematics/imp_shuttle.md3"
+"mins" "-41 -78 0"
+"maxs" "66 81 72"
+"origin" "1513 -84 -56"
+"angle" "180"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/cinematics/statue.md3"
+"mins" "-34 -41 -1"
+"maxs" "45 24 257"
+"angle" "90"
+"origin" "-2048 -1104 -128"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/cinematics/statue.md3"
+"mins" "-48 -41 -1"
+"maxs" "53 60 257"
+"angle" "225"
+"origin" "-1553 -20 -128"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/cinematics/statue.md3"
+"mins" "-24 -34 -1"
+"maxs" "41 45 257"
+"angle" "180"
+"origin" "-1449 -512 -128"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/cinematics/statue.md3"
+"mins" "-53 -60 -1"
+"maxs" "48 41 257"
+"angle" "45"
+"origin" "-2512 -989 -128"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/cinematics/statue.md3"
+"mins" "-60 -48 -1"
+"maxs" "41 53 257"
+"angle" "315"
+"origin" "-2532 -29 -128"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/cinematics/statue.md3"
+"mins" "-41 -45 -1"
+"maxs" "24 34 257"
+"angle" "360"
+"origin" "-2640 -505 -128"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/cinematics/statue.md3"
+"mins" "-45 -24 -1"
+"maxs" "34 41 257"
+"angle" "270"
+"origin" "-2048 87 -128"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/cinematics/statue.md3"
+"mins" "-41 -53 -1"
+"maxs" "60 48 257"
+"angle" "135"
+"origin" "-1569 -992 -128"
+}
+{
+"classname" "info_player_start"
+"angle" "135"
+"origin" "-1312 -1040 -104"
+"target" "cinematic10script"
+}

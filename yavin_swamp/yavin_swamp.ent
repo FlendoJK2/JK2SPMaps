@@ -1,0 +1,1880 @@
+{
+"classname" "worldspawn"
+"SkyHeight" "2638"
+"gridsize" "75 75 145"
+"_color" "1.000000 1.000000 0.850980"
+"ambient" "7"
+"fog" "textures/fogs/yavin_swamp"
+"soundSet" "yavin_jungle"
+"distancecull" "2800"
+}
+{
+"model" "*1"
+"classname" "trigger_once"
+"Usescript" "yavin_swamp/kyle_conv3"
+"spawnflags" "1"
+}
+{
+"model" "*2"
+"classname" "trigger_once"
+"Usescript" "yavin_swamp/kyle_conv2"
+"spawnflags" "1"
+}
+{
+"model" "*3"
+"classname" "trigger_once"
+"spawnflags" "1"
+"target" "rebfighters"
+}
+{
+"model" "*4"
+"classname" "trigger_multiple"
+"spawnflags" "1"
+"soundSet" "yavin_jungle"
+}
+{
+"model" "*5"
+"classname" "trigger_multiple"
+"spawnflags" "1"
+"soundSet" "yavin_jungle"
+}
+{
+"model" "*6"
+"classname" "trigger_multiple"
+"spawnflags" "1"
+"soundSet" "yavin_jungle"
+}
+{
+"model" "*7"
+"classname" "trigger_once"
+"target" "ea"
+}
+{
+"model" "*8"
+"classname" "trigger_once"
+"target" "ee"
+}
+{
+"model" "*9"
+"classname" "trigger_once"
+"target" "swamp_end"
+}
+{
+"model" "*10"
+"classname" "trigger_once"
+"target" "eb"
+}
+{
+"model" "*11"
+"classname" "trigger_once"
+"target" "ec"
+}
+{
+"model" "*12"
+"classname" "trigger_once"
+"target" "ed"
+}
+{
+"model" "*13"
+"classname" "trigger_multiple"
+"spawnflags" "1"
+"soundSet" "yavin_cave"
+}
+{
+"model" "*14"
+"classname" "trigger_multiple"
+"spawnflags" "1"
+"soundSet" "yavin_cave"
+}
+{
+"model" "*15"
+"classname" "trigger_multiple"
+"spawnflags" "1"
+"soundSet" "yavin_jungle"
+}
+{
+"model" "*16"
+"classname" "trigger_multiple"
+"spawnflags" "1"
+"soundSet" "yavin_interior"
+}
+{
+"model" "*17"
+"classname" "trigger_multiple"
+"spawnflags" "1"
+"soundSet" "yavin_jungle"
+}
+{
+"model" "*18"
+"classname" "trigger_multiple"
+"spawnflags" "1"
+"soundSet" "yavin_interior"
+}
+{
+"model" "*19"
+"classname" "trigger_once"
+"spawnflags" "1"
+"target" "rebfighters1"
+}
+{
+"model" "*20"
+"classname" "trigger_once"
+"target" "ef"
+}
+{
+"model" "*21"
+"classname" "trigger_once"
+"spawnflags" "1"
+"target" "rebfighters2"
+}
+{
+"model" "*22"
+"classname" "trigger_once"
+"spawnflags" "1"
+"target" "sec"
+}
+{
+"model" "*23"
+"origin" "6704 6744 4568"
+"classname" "func_train"
+"model2" "models/players/glider/model.glm"
+"startframe" "0"
+"endframe" "39"
+"angle" "225"
+"speed" "200"
+"linear" "1"
+"spawnflags" "33"
+"target" "t407"
+}
+{
+"model" "*24"
+"classname" "trigger_once"
+"spawnflags" "1"
+"target" "sec"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"origin" "-2708 1760 2184"
+"noise" "sound/ambience/yavin/lionfalls_lp.wav"
+}
+{
+"classname" "fx_runner"
+"spawnflags" "1"
+"targetname" "black_smoke2"
+"fxFile" "black_smoke2"
+"delay" "150"
+"origin" "-6192 -3392 2432"
+}
+{
+"classname" "fx_runner"
+"spawnflags" "0"
+"origin" "-1776 1000 2666"
+"fxfile" "black_smoke2"
+}
+{
+"classname" "fx_runner"
+"spawnflags" "0"
+"origin" "-1804 824 2686"
+"fxfile" "black_smoke2"
+}
+{
+"classname" "fx_runner"
+"spawnflags" "0"
+"origin" "-1890 624 2612"
+"fxfile" "black_smoke2"
+}
+{
+"classname" "fx_runner"
+"spawnflags" "0"
+"origin" "-2034 924 2524"
+"fxfile" "spark_light"
+"target" "se"
+"random" "77"
+"delay" "420"
+}
+{
+"classname" "fx_runner"
+"fxFile" "env/water_spout"
+"target" "w"
+"spawnflags" "0"
+"origin" "-2686 1766 2200"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/imp_detention/transport.md3"
+"mins" "-477 -264 -1"
+"maxs" "480 268 261"
+"angle" "180"
+"origin" "6800 -2032 2616"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-147 -146 -224"
+"maxs" "145 146 221"
+"origin" "-2330 1300 2216"
+"model" "models/map_objects/yavin/tree08_b.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/fern3.md3"
+"mins" "-118 -120 0"
+"maxs" "122 124 57"
+"origin" "640 3552 2240"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/fern.md3"
+"mins" "-111 -112 -2"
+"maxs" "110 111 110"
+"origin" "-2156 2360 2140"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree05.md3"
+"mins" "-322 -275 -253"
+"maxs" "323 242 251"
+"origin" "-4516 -800 2358"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree06.md3"
+"mins" "-189 -218 -252"
+"maxs" "185 214 242"
+"origin" "-3252 -2404 2052"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree08.md3"
+"mins" "-147 -146 -224"
+"maxs" "145 146 221"
+"origin" "-3108 -2932 2032"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-393 -388 -497"
+"maxs" "388 387 500"
+"origin" "-4804 -4392 2196"
+"model" "models/map_objects/yavin/tree09_b.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree05.md3"
+"mins" "-322 -275 -253"
+"maxs" "323 242 251"
+"origin" "-4052 -3448 2084"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree02.md3"
+"mins" "-201 -133 -269"
+"maxs" "169 227 243"
+"origin" "-4600 -3364 2088"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-393 -388 -443"
+"maxs" "388 387 500"
+"angle" "360"
+"origin" "-5988 -4824 2120"
+"model" "models/map_objects/yavin/tree_sidehill_b.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-4816 -3572 1768"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/plant.md3"
+"mins" "-142 -132 -10"
+"maxs" "113 145 61"
+"origin" "-5196 -3508 1716"
+"angle" "360"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "-4752 -3528 1800"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/fern.md3"
+"mins" "-111 -112 -2"
+"maxs" "110 111 110"
+"origin" "-4574 -3486 1816"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-147 -146 -224"
+"maxs" "145 146 221"
+"origin" "-6434 -4396 1862"
+"model" "models/map_objects/yavin/tree08_b.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass.md3"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "-4876 -3696 1740"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/fern2.md3"
+"mins" "-67 -57 -1"
+"maxs" "62 52 68"
+"origin" "-4992 -3508 1768"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-5996 -4060 1680"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-5404 -3756 1680"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-6164 -4216 1680"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass.md3"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "-4508 -3608 1812"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-4292 -3444 1832"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "-4592 -3236 1840"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "-3868 -3420 1824"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-67 -57 -1"
+"maxs" "62 52 68"
+"origin" "-4856 -3308 1828"
+"model" "models/map_objects/yavin/fern2.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-5136 -3340 1732"
+"angle" "180"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-4724 -3184 1844"
+}
+{
+"classname" "misc_model"
+"mins" "-67 -57 -1"
+"maxs" "62 52 68"
+"origin" "-4440 -3320 1836"
+"model" "models/map_objects/yavin/fern2.md3"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-3396 -4152 1656"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-4100 -4672 1656"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-5284 -5096 1664"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass.md3"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "-5800 -4232 1724"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass.md3"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "-5888 -4272 1740"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "-3000 -2988 1800"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-67 -57 -1"
+"maxs" "62 52 68"
+"origin" "-4240 -924 2108"
+"model" "models/map_objects/yavin/fern2.md3"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-147 -146 -224"
+"maxs" "145 146 221"
+"origin" "-6328 -1028 2259"
+"model" "models/map_objects/yavin/tree08_b.md3"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/tree05_b.md3"
+"mins" "-322 -275 -253"
+"maxs" "323 242 251"
+"origin" "-1816 -1392 2496"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-393 -388 -497"
+"maxs" "388 387 500"
+"origin" "-5044 52 2490"
+"model" "models/map_objects/yavin/tree09_b.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-3908 100 2076"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-3024 128 2084"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-169 -227 -269"
+"maxs" "201 133 243"
+"origin" "-1944 336 2310"
+"angle" "180"
+"model" "models/map_objects/yavin/tree02_b.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-2260 232 2060"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/tree05_b.md3"
+"mins" "-322 -275 -253"
+"maxs" "323 242 251"
+"origin" "-2228 2018 2250"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-2936 1268 2124"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-1960 1984 2044"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-2404 432 2108"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-3684 1644 1988"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-3580 -218 1996"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-5408 244 2080"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "-2192 524 2088"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-67 -57 -1"
+"maxs" "62 52 68"
+"origin" "-1732 2348 2168"
+"model" "models/map_objects/yavin/fern2.md3"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-393 -388 -497"
+"maxs" "388 387 500"
+"origin" "-3352 1696 2552"
+"model" "models/map_objects/yavin/tree09_b.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree09.md3"
+"mins" "-393 -388 -497"
+"maxs" "388 387 500"
+"origin" "-1652 2232 2660"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-1964 1300 2020"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-2108 1412 2004"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-2468 1196 2004"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree_sidehill.md3"
+"mins" "-388 -387 -443"
+"maxs" "393 388 500"
+"angle" "180"
+"origin" "-3558 1235 2552"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-3644 1188 1984"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "164 3268 2168"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-1084 2364 2220"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-1300 2156 2156"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/plant.md3"
+"mins" "-142 -132 -10"
+"maxs" "113 145 61"
+"origin" "-2112 2600 2136"
+}
+{
+"classname" "misc_model"
+"mins" "-67 -57 -1"
+"maxs" "62 52 68"
+"origin" "-936 2476 2240"
+"model" "models/map_objects/yavin/fern2.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "-968 2372 2232"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-147 -146 -224"
+"maxs" "145 146 221"
+"origin" "-1200 4672 2358"
+"model" "models/map_objects/yavin/tree08_b.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "732 3776 2224"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-376 3136 2124"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-192 3088 2124"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-169 -227 -269"
+"maxs" "201 133 243"
+"origin" "-2312 2480 2310"
+"angle" "180"
+"model" "models/map_objects/yavin/tree02_b.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/plant.md3"
+"mins" "-142 -132 -10"
+"maxs" "113 145 61"
+"origin" "-2936 4164 2180"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/plant.md3"
+"mins" "-142 -132 -10"
+"maxs" "113 145 61"
+"origin" "-2928 3820 2212"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/plant.md3"
+"mins" "-142 -132 -10"
+"maxs" "113 145 61"
+"origin" "-2250 4132 2224"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-147 -146 -224"
+"maxs" "145 146 221"
+"origin" "-3184 4530 2386"
+"model" "models/map_objects/yavin/tree08_b.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-67 -57 -1"
+"maxs" "62 52 68"
+"origin" "-3120 4304 2188"
+"model" "models/map_objects/yavin/fern2.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-2660 4460 2172"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-2076 4476 2208"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "-2552 4696 2184"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-2228 4340 2228"
+}
+{
+"classname" "misc_model"
+"mins" "-67 -57 -1"
+"maxs" "62 52 68"
+"origin" "-2680 4064 2208"
+"model" "models/map_objects/yavin/fern2.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "-3140 3904 2216"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "-2568 3856 2216"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-2780 3556 2124"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-3052 3564 2072"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-3388 3292 2096"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "-3336 3600 2184"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-788 4748 2124"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-20 4516 2216"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "60 4692 2224"
+}
+{
+"classname" "misc_model"
+"mins" "-67 -57 -1"
+"maxs" "62 52 68"
+"origin" "1120 4472 2224"
+"model" "models/map_objects/yavin/fern2.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-67 -57 -1"
+"maxs" "62 52 68"
+"origin" "342 5020 2224"
+"model" "models/map_objects/yavin/fern2.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "764 5000 2248"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "988 4916 2244"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "-262 4932 2196"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "616 4200 2240"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "916 3812 2224"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "384 3480 2224"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "388 3588 2224"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-67 -57 -1"
+"maxs" "62 52 68"
+"origin" "468 3242 2224"
+"model" "models/map_objects/yavin/fern2.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree09.md3"
+"mins" "-393 -388 -497"
+"maxs" "388 387 500"
+"origin" "708 4916 2716"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree02.md3"
+"mins" "-169 -227 -269"
+"maxs" "201 133 243"
+"origin" "604 3432 2494"
+"angle" "180"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "772 3340 2224"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "860 3180 2220"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "556 2420 2036"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/plant.md3"
+"mins" "-132 -113 -10"
+"maxs" "145 142 61"
+"origin" "666 3047 2216"
+"angle" "270"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "900 4348 2224"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "932 4764 2232"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "404 4368 2224"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree08.md3"
+"mins" "-146 -145 -224"
+"maxs" "146 147 221"
+"origin" "89 5050 2418"
+"angle" "270"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "612 1964 2140"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-147 -146 -224"
+"maxs" "145 146 221"
+"origin" "128 1940 2274"
+"model" "models/map_objects/yavin/tree08_b.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree02.md3"
+"mins" "-227 -201 -269"
+"maxs" "133 169 243"
+"origin" "184 2766 2464"
+"angle" "90"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/plant.md3"
+"mins" "-132 -113 -10"
+"maxs" "145 142 61"
+"origin" "352 2922 2208"
+"angle" "270"
+}
+{
+"classname" "misc_model"
+"mins" "-67 -57 -1"
+"maxs" "62 52 68"
+"origin" "152 2908 2172"
+"model" "models/map_objects/yavin/fern2.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "132 2688 2204"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-124 1588 2180"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-80 1032 2052"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-227 -201 -269"
+"maxs" "133 169 243"
+"origin" "-194 -1618 2574"
+"angle" "90"
+"model" "models/map_objects/yavin/tree02_b.md3"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-147 -146 -224"
+"maxs" "145 146 221"
+"origin" "3434 2942 2804"
+"model" "models/map_objects/yavin/tree08_b.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree_sidehill.md3"
+"mins" "-388 -387 -443"
+"maxs" "393 388 500"
+"angle" "180"
+"origin" "-1501 -1259 2788"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-146 -145 -224"
+"maxs" "146 147 221"
+"origin" "-518 -2112 2488"
+"angle" "270"
+"model" "models/map_objects/yavin/tree08_b.md3"
+}
+{
+"classname" "NPC_SwampTrooper"
+"origin" "720 -1328 2404"
+"angle" "90"
+"targetname" "ed"
+"spawnscript" "common/standshoot"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-1312 -2536 2292"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-1196 -1368 2232"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-724 -516 2308"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-716 -796 2308"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-988 -780 2276"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-1380 -1316 2232"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-147 -146 -224"
+"maxs" "145 146 221"
+"origin" "-1320 -1116 2444"
+"model" "models/map_objects/yavin/tree08_b.md3"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/fern3_b.md3"
+"mins" "-122 -124 0"
+"maxs" "118 120 57"
+"origin" "-7 -1723 2328"
+"angle" "180"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/tree_sidehill_b.md3"
+"mins" "-388 -388 -443"
+"maxs" "387 393 500"
+"angle" "270"
+"origin" "-1858 -2143 2736"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "-1164 -944 2324"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-884 -1760 2264"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "252 -2108 2280"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "2364 -136 2548"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-400 -1030 2238"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "-1864 -2664 2324"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-67 -57 -1"
+"maxs" "62 52 68"
+"origin" "-1706 -2600 2336"
+"model" "models/map_objects/yavin/fern2.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "-1920 -1068 2332"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "392 -1500 2324"
+"model" "models/map_objects/yavin/grass_b.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-1674 -2752 2328"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "2400 492 2580"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/fern3_b.md3"
+"mins" "-120 -122 0"
+"maxs" "124 118 57"
+"origin" "2058 513 2600"
+"angle" "270"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-133 -169 -269"
+"maxs" "227 201 243"
+"origin" "1806 -30 2840"
+"angle" "270"
+"model" "models/map_objects/yavin/tree02_b.md3"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/tree06_b.md3"
+"mins" "-189 -218 -252"
+"maxs" "185 214 242"
+"origin" "5932 480 2792"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-133 -169 -269"
+"maxs" "227 201 243"
+"origin" "1078 1394 2872"
+"angle" "270"
+"model" "models/map_objects/yavin/tree02_b.md3"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/tree06_b.md3"
+"mins" "-189 -218 -252"
+"maxs" "185 214 242"
+"origin" "2288 1964 2854"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/fern3_b.md3"
+"mins" "-120 -122 0"
+"maxs" "124 118 57"
+"origin" "2940 1384 2608"
+"angle" "270"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/fern3_b.md3"
+"mins" "-120 -122 0"
+"maxs" "124 118 57"
+"origin" "3006 867 2608"
+"angle" "270"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "1636 384 2404"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "1696 172 2404"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "3910 1130 2544"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-393 -388 -497"
+"maxs" "388 387 500"
+"origin" "1420 1630 3098"
+"model" "models/map_objects/yavin/tree09_b.md3"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-393 -388 -497"
+"maxs" "388 387 500"
+"origin" "3142 1014 3058"
+"model" "models/map_objects/yavin/tree09_b.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "3428 1636 2612"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "2168 1828 2612"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-67 -57 -1"
+"maxs" "62 52 68"
+"origin" "2544 1664 2612"
+"model" "models/map_objects/yavin/fern2.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "3888 1324 2632"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "4144 1316 2608"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-393 -388 -497"
+"maxs" "388 387 500"
+"origin" "4572 788 3048"
+"model" "models/map_objects/yavin/tree09_b.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "2588 1352 2608"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "5672 300 2536"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "5320 -444 2536"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "5104 -2676 2536"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "4336 308 2604"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "4140 48 2596"
+"model" "models/map_objects/yavin/grass_b.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/fern2.md3"
+"mins" "-67 -57 -1"
+"maxs" "62 52 68"
+"origin" "620 3928 2224"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass.md3"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "-1880 2308 2148"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/fern3.md3"
+"mins" "-118 -120 0"
+"maxs" "122 124 57"
+"origin" "-76 532 2180"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/fern3.md3"
+"mins" "-120 -122 0"
+"maxs" "124 118 57"
+"origin" "-2498 4166 2204"
+"angle" "270"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/fern3_b.md3"
+"mins" "-120 -122 0"
+"maxs" "124 118 57"
+"origin" "524 -1516 2320"
+"angle" "270"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree08.md3"
+"mins" "-147 -146 -224"
+"maxs" "145 146 221"
+"origin" "-2616 3968 2442"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree08.md3"
+"mins" "-147 -146 -224"
+"maxs" "145 146 221"
+"origin" "-1852 -2812 2548"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree08.md3"
+"mins" "-147 -146 -224"
+"maxs" "145 146 221"
+"origin" "5944 -1360 2836"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree08.md3"
+"mins" "-147 -146 -224"
+"maxs" "145 146 221"
+"origin" "4328 -168 2860"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/fern.md3"
+"mins" "-112 -110 -2"
+"maxs" "111 111 110"
+"origin" "409 3964 2224"
+"angle" "270"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_b.md3"
+"mins" "-57 -53 1"
+"maxs" "57 53 74"
+"origin" "589 -1018 2340"
+"angle" "270"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/fern.md3"
+"mins" "-112 -110 -2"
+"maxs" "111 111 110"
+"origin" "3724 1420 2612"
+"angle" "270"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/fern.md3"
+"mins" "-111 -112 -2"
+"maxs" "110 111 110"
+"origin" "6436 -1924 2612"
+"angle" "360"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree_sidehill.md3"
+"mins" "-388 -387 -443"
+"maxs" "393 388 500"
+"angle" "180"
+"origin" "4561 -2791 3104"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "4332 -80 2616"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "4236 -120 2616"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "4676 -720 2596"
+"model" "models/map_objects/yavin/grass_b.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "5546 -652 2612"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "5594 -414 2588"
+"model" "models/map_objects/yavin/grass_b.md3"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "6048 -70 2556"
+"model" "models/map_objects/yavin/grass_b.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "6852 -1220 2612"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "6628 -1680 2608"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "6156 -1464 2608"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "6012 -1560 2604"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "5644 -1608 2604"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "5604 -2888 2608"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree09.md3"
+"mins" "-393 -388 -497"
+"maxs" "388 387 500"
+"origin" "6838 -2508 3108"
+}
+{
+"classname" "misc_model"
+"mins" "-67 -57 -1"
+"maxs" "62 52 68"
+"origin" "6656 -1356 2612"
+"model" "models/map_objects/yavin/fern2.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-67 -57 -1"
+"maxs" "62 52 68"
+"origin" "5504 -2700 2612"
+"model" "models/map_objects/yavin/fern2.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-67 -57 -1"
+"maxs" "62 52 68"
+"origin" "5328 -2940 2612"
+"model" "models/map_objects/yavin/fern2.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-67 -57 -1"
+"maxs" "62 52 68"
+"origin" "6208 -2012 2612"
+"model" "models/map_objects/yavin/fern2.md3"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-146 -145 -224"
+"maxs" "146 147 221"
+"origin" "6470 -1132 2806"
+"angle" "270"
+"model" "models/map_objects/yavin/tree08_b.md3"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "4244 -360 2576"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "5724 -224 2600"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-110 -101 1"
+"maxs" "110 101 162"
+"origin" "6811 -2351 2612"
+"angle" "270"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-110 -101 1"
+"maxs" "110 101 162"
+"origin" "5990 -2898 2608"
+"angle" "270"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-110 -101 1"
+"maxs" "110 101 162"
+"origin" "5497 -2869 2608"
+"angle" "270"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/grass_tall.md3"
+"mins" "-110 -101 1"
+"maxs" "110 101 162"
+"origin" "5976 -2104 2604"
+"angle" "270"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-110 -101 1"
+"maxs" "110 101 162"
+"origin" "6191 -1187 2576"
+"angle" "270"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-110 -101 1"
+"maxs" "110 101 162"
+"origin" "7630 -626 2576"
+"angle" "270"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree09.md3"
+"mins" "-393 -388 -497"
+"maxs" "388 387 500"
+"origin" "7132 -882 3108"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/fern.md3"
+"mins" "-112 -110 -2"
+"maxs" "111 111 110"
+"origin" "5481 -1018 2616"
+"angle" "270"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/plant.md3"
+"mins" "-132 -113 -10"
+"maxs" "145 142 61"
+"origin" "6178 -2309 2620"
+"angle" "270"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-147 -146 -224"
+"maxs" "145 146 221"
+"origin" "-5820 -488 2188"
+"model" "models/map_objects/yavin/tree08_b.md3"
+}
+{
+"classname" "misc_model"
+"mins" "-53 -57 1"
+"maxs" "53 57 74"
+"origin" "-3628 -3496 1824"
+"model" "models/map_objects/yavin/grass.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree06.md3"
+"mins" "-189 -218 -252"
+"maxs" "185 214 242"
+"origin" "-3234 -3496 2062"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-3044 2080 2000"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/grass_tall_b.md3"
+"mins" "-101 -110 1"
+"maxs" "101 110 162"
+"origin" "-2704 2300 2000"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-393 -388 -497"
+"maxs" "388 387 500"
+"origin" "5750 936 3090"
+"model" "models/map_objects/yavin/tree09_b.md3"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-201 -133 -269"
+"maxs" "169 227 243"
+"origin" "-3976 -1154 2270"
+"model" "models/map_objects/yavin/tree02_b.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree05.md3"
+"mins" "-242 -322 -253"
+"maxs" "275 323 251"
+"origin" "-3374 -1030 3358"
+"angle" "90"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree_sidehill.md3"
+"mins" "-393 -388 -443"
+"maxs" "388 387 500"
+"angle" "360"
+"origin" "-3384 -1932 2336"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree09.md3"
+"mins" "-393 -388 -497"
+"maxs" "388 387 500"
+"origin" "636 -8 2840"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/cinematics/pod_hatch.md3"
+"mins" "-14 -34 0"
+"maxs" "7 24 38"
+"origin" "-6084 -3388 2420"
+"script_targetname" "pod_hatch"
+"angles" "200 120 -290"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/cinematics/pod.md3"
+"mins" "-54 -53 0"
+"maxs" "47 53 199"
+"angles" "200 120 -290"
+"origin" "-6184 -3392 2432"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/cinematics/kylesleg.md3"
+"mins" "-4 -22 -9"
+"maxs" "4 22 11"
+"angle" "270"
+"origin" "-6058 -3354 2410"
+"script_targetname" "kyle_leg"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree09.md3"
+"mins" "-393 -388 -497"
+"maxs" "388 387 500"
+"origin" "3850 4156 3108"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-393 -388 -497"
+"maxs" "388 387 500"
+"origin" "1858 3314 3050"
+"model" "models/map_objects/yavin/tree09_b.md3"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree09.md3"
+"mins" "-393 -388 -497"
+"maxs" "388 387 500"
+"origin" "5718 2582 3108"
+}
+{
+"classname" "misc_model_breakable"
+"mins" "-133 -169 -269"
+"maxs" "227 201 243"
+"origin" "3142 3774 2828"
+"angle" "270"
+"model" "models/map_objects/yavin/tree02_b.md3"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/tree05_b.md3"
+"mins" "-322 -275 -253"
+"maxs" "323 242 251"
+"origin" "2396 4056 2850"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree05.md3"
+"mins" "-322 -275 -253"
+"maxs" "323 242 251"
+"origin" "7690 -662 2862"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/tree06_b.md3"
+"mins" "-218 -185 -252"
+"maxs" "214 189 242"
+"origin" "4856 2758 2792"
+"angle" "270"
+}
+{
+"classname" "misc_model_breakable"
+"model" "models/map_objects/yavin/tree06_b.md3"
+"mins" "-218 -185 -252"
+"maxs" "214 189 242"
+"origin" "2479 3499 2852"
+"angle" "270"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree08.md3"
+"mins" "-147 -146 -224"
+"maxs" "145 146 221"
+"origin" "3668 2634 2890"
+}
+{
+"classname" "misc_model"
+"model" "models/map_objects/yavin/tree08.md3"
+"mins" "-147 -146 -224"
+"maxs" "145 146 221"
+"origin" "3718 3270 2836"
+}
+{
+"classname" "info_player_start"
+"angle" "315"
+"origin" "-5914 -4174 1750"
+"target" "set"
+}
