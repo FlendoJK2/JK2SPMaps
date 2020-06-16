@@ -6,18 +6,17 @@
 {
 "model" "*1"
 "classname" "trigger_multiple"
-"angle" "90"
 "wait" "999999999"
 "target" "controlroom"
+"targetname" "controlroom_trigger"
 "origin" "0 40 0"
 }
 {
 "model" "*1"
 "classname" "trigger_multiple"
-"angle" "90"
 "spawnflags" "1"
 "wait" "999999999"
-"target" "controlroom"
+"target" "controlroom_trigger"
 "origin" "115 40 0"
 }
 {
@@ -29,7 +28,6 @@
 {
 "model" "*3"
 "classname" "trigger_multiple"
-"angle" "270"
 "spawnflags" "1"
 "wait" "999999999"
 "origin" "190 20 0"
@@ -51,7 +49,7 @@
 {
 "classname" "target_speaker"
 "targetname" "secret"
-"origin" "3044 1028 4"
+"origin" "3024 1024 32"
 "noise" "sound/interface/secret_area"
 }
 {
@@ -84,7 +82,6 @@
 "model" "*10"
 "classname" "trigger_multiple"
 "spawnflags" "1"
-"angle" "180"
 "wait" "1"
 "target" "neveropen1"
 }
@@ -97,7 +94,7 @@
 {
 "model" "*14"
 "classname" "func_usable"
-"target" "platform_doors"
+"target" "platform_doors_trigger"
 "spawnflags" "8"
 "wait" "3"
 }
@@ -254,7 +251,7 @@
 "sound" "0"
 "lip" "17.99"
 "origin" "0 0 -0.01"
-"wait" "99999999"
+"wait" "999999999"
 "speed" "5000"
 "angle" "-1"
 "targetname" "platform_doors"
@@ -312,6 +309,13 @@
 "noise" "sound/movers/switches/switch3"
 "targetname" "lift1"
 "origin" "1322 -463 440"
+}
+{
+"model" "*49"
+"classname" "trigger_multiple"
+"wait" "999999999"
+"target" "platform_doors"
+"targetname" "platform_doors_trigger"
 }
 {
 "model" "*50"
@@ -784,7 +788,7 @@
 "model" "models/map_objects/bespin/chair.md3"
 "count" "-1"
 "angle" "90"
-"origin" "319 361 -8"
+"origin" "319 360 -8"
 }
 {
 "classname" "misc_model_shield_power_converter"
@@ -1246,7 +1250,7 @@
 }
 {
 "classname" "info_jedimaster_start"
-"origin" "2440 3425 -159"
+"origin" "2208 1056 24"
 }
 {
 "classname" "info_player_deathmatch"
@@ -1254,73 +1258,74 @@
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "191 556 24"
+"origin" "192 552 24"
 "angle" "-90"
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "579 556 24"
+"origin" "576 552 24"
 "angle" "-90"
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "663 3 24"
+"origin" "664 0 24"
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "1169 234 8"
+"origin" "1168 232 8"
 "angle" "-90"
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "1526 -539 408"
+"origin" "1528 -536 408"
 "angle" "45"
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "1661 978 440"
+"origin" "1664 992 440"
 "angle" "90"
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "2441 369 24"
+"origin" "2440 368 24"
 "angle" "90"
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "2013 1269 24"
+"origin" "2016 1272 24"
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "2441 1817 24"
+"origin" "2440 1816 24"
 "angle" "-90"
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "2938 1252 24"
+"origin" "2936 1256 24"
 "angle" "180"
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "2935 792 24"
+"origin" "2936 792 24"
 "angle" "180"
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "1169 -646 440"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "1419 1436 440"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "1144 534 440"
+"origin" "2440 2496 24"
 "angle" "90"
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "2728 329 160"
+"origin" "1408 1440 440"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1152 536 440"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "2728 328 160"
 "angle" "90"
 }
 {
@@ -1337,19 +1342,20 @@
 }
 {
 "classname" "item_shield_lrg_instant"
-"origin" "95 297 16"
+"origin" "96 296 16"
 }
 {
 "classname" "item_shield_lrg_instant"
-"origin" "3231 1020 152"
+"origin" "3232 1024 152"
+"angle" "180"
 }
 {
 "classname" "item_medpac"
-"origin" "576 -279 0"
+"origin" "576 -303 0"
 }
 {
 "classname" "item_medpac"
-"origin" "1439 943 416"
+"origin" "1440 944 416"
 }
 {
 "classname" "item_medpac"
@@ -1406,6 +1412,7 @@
 {
 "classname" "ammo_powercell"
 "origin" "399 449 8"
+"angle" "180"
 }
 {
 "classname" "weapon_repeater"
@@ -1426,11 +1433,11 @@
 }
 {
 "classname" "weapon_flechette"
-"origin" "192 -301 8"
+"origin" "192 -301 16"
 }
 {
 "classname" "ammo_metallic_bolts"
-"origin" "208 -301 8"
+"origin" "208 -301 16"
 }
 {
 "classname" "weapon_rocket_launcher"
@@ -1438,7 +1445,7 @@
 }
 {
 "classname" "weapon_thermal"
-"origin" "1703 1215 432"
+"origin" "1704 1216 432"
 }
 {
 "classname" "weapon_trip_mine"
@@ -1451,27 +1458,27 @@
 {
 "classname" "misc_holocron"
 "count" "0"
-"origin" "2858 3801 160"
+"origin" "2864 3800 136"
 }
 {
 "classname" "misc_holocron"
 "count" "1"
-"origin" "2440 3419 -159"
+"origin" "2440 3424 -176"
 }
 {
 "classname" "misc_holocron"
 "count" "2"
-"origin" "-1504 0 24"
+"origin" "-1504 0 8"
 }
 {
 "classname" "misc_holocron"
 "count" "3"
-"origin" "2439 5089 -167"
+"origin" "2440 5088 -184"
 }
 {
 "classname" "misc_holocron"
 "count" "4"
-"origin" "2440 2008 24"
+"origin" "2440 2008 8"
 }
 {
 "classname" "misc_holocron"
@@ -1486,45 +1493,45 @@
 {
 "classname" "misc_holocron"
 "count" "7"
-"origin" "1255 -450 442"
+"origin" "1256 -456 424"
 }
 {
 "classname" "misc_holocron"
 "count" "8"
-"origin" "669 -168 24"
+"origin" "669 -168 8"
 }
 {
 "classname" "misc_holocron"
 "count" "9"
-"origin" "383 187 24"
+"origin" "383 187 8"
 }
 {
 "classname" "misc_holocron"
 "count" "10"
-"origin" "2911 1060 24"
+"origin" "2912 1064 8"
 }
 {
 "classname" "misc_holocron"
 "count" "13"
-"origin" "1769 1276 8"
+"origin" "1768 1280 8"
 }
 {
 "classname" "misc_holocron"
 "count" "14"
-"origin" "1472 1332 408"
+"origin" "1488 1336 392"
 }
 {
 "classname" "misc_holocron"
 "count" "15"
-"origin" "1068 421 24"
+"origin" "1072 432 8"
 }
 {
 "classname" "misc_holocron"
 "count" "16"
-"origin" "2164 4008 -167"
+"origin" "2160 4016 -184"
 }
 {
 "classname" "misc_holocron"
 "count" "17"
-"origin" "2947 1849 160"
+"origin" "2944 1856 144"
 }
