@@ -5,21 +5,21 @@
 }
 {
 "classname" "target_speaker"
-"noise" "sound/ambience/jedi_cloud_idle.wav"
 "spawnflags" "1"
+"noise" "sound/ambience/jedi_cloud_idle"
 "origin" "-2040 -496 56"
 }
 {
 "classname" "target_speaker"
-"noise" "sound/ambience/jedi_cloud_lp.wav"
 "spawnflags" "1"
+"noise" "sound/ambience/jedi_cloud_lp"
 "origin" "-2056 -488 56"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
-"origin" "1548 -60 2"
 "noise" "sound/ambience/desann_cockpit_lp"
+"origin" "1548 -60 2"
 }
 {
 "classname" "fx_runner"
@@ -52,55 +52,6 @@
 "count" "-1"
 "angle" "90"
 "origin" "-2048 -1104 -128"
-}
-{
-"classname" "misc_model_shield_power_converter"
-"model" "models/map_objects/cinematics/statue.md3"
-"count" "-1"
-"angle" "225"
-"origin" "-1553 -20 -128"
-}
-{
-"classname" "misc_model_shield_power_converter"
-"model" "models/map_objects/cinematics/statue.md3"
-"count" "-1"
-"angle" "180"
-"origin" "-1449 -512 -128"
-}
-{
-"classname" "misc_model_shield_power_converter"
-"model" "models/map_objects/cinematics/statue.md3"
-"count" "-1"
-"angle" "45"
-"origin" "-2512 -989 -128"
-}
-{
-"classname" "misc_model_shield_power_converter"
-"model" "models/map_objects/cinematics/statue.md3"
-"count" "-1"
-"angle" "315"
-"origin" "-2532 -29 -128"
-}
-{
-"classname" "misc_model_shield_power_converter"
-"model" "models/map_objects/cinematics/statue.md3"
-"count" "-1"
-"angle" "360"
-"origin" "-2640 -505 -128"
-}
-{
-"classname" "misc_model_shield_power_converter"
-"model" "models/map_objects/cinematics/statue.md3"
-"count" "-1"
-"angle" "270"
-"origin" "-2048 87 -128"
-}
-{
-"classname" "misc_model_shield_power_converter"
-"model" "models/map_objects/cinematics/statue.md3"
-"count" "-1"
-"angle" "135"
-"origin" "-1569 -992 -128"
 }
 {
 "classname" "misc_model_shield_power_converter"
@@ -159,6 +110,13 @@
 }
 {
 "classname" "misc_model_shield_power_converter"
+"model" "models/map_objects/cinematics/statue.md3"
+"count" "-1"
+"angle" "225"
+"origin" "-1553 -20 -128"
+}
+{
+"classname" "misc_model_shield_power_converter"
 "count" "-1"
 "origin" "-2051 70 -97"
 }
@@ -211,6 +169,13 @@
 "classname" "misc_model_shield_power_converter"
 "count" "-1"
 "origin" "-2044 83 72"
+}
+{
+"classname" "misc_model_shield_power_converter"
+"model" "models/map_objects/cinematics/statue.md3"
+"count" "-1"
+"angle" "180"
+"origin" "-1449 -512 -128"
 }
 {
 "classname" "misc_model_shield_power_converter"
@@ -269,6 +234,13 @@
 }
 {
 "classname" "misc_model_shield_power_converter"
+"model" "models/map_objects/cinematics/statue.md3"
+"count" "-1"
+"angle" "45"
+"origin" "-2512 -989 -128"
+}
+{
+"classname" "misc_model_shield_power_converter"
 "count" "-1"
 "origin" "-1556 -37 -97"
 }
@@ -321,6 +293,13 @@
 "classname" "misc_model_shield_power_converter"
 "count" "-1"
 "origin" "-1549 -24 72"
+}
+{
+"classname" "misc_model_shield_power_converter"
+"model" "models/map_objects/cinematics/statue.md3"
+"count" "-1"
+"angle" "315"
+"origin" "-2532 -29 -128"
 }
 {
 "classname" "misc_model_shield_power_converter"
@@ -379,6 +358,12 @@
 }
 {
 "classname" "misc_model_shield_power_converter"
+"model" "models/map_objects/cinematics/statue.md3"
+"count" "-1"
+"origin" "-2640 -505 -128"
+}
+{
+"classname" "misc_model_shield_power_converter"
 "count" "-1"
 "origin" "-2515 -1006 -97"
 }
@@ -431,6 +416,13 @@
 "classname" "misc_model_shield_power_converter"
 "count" "-1"
 "origin" "-2508 -993 72"
+}
+{
+"classname" "misc_model_shield_power_converter"
+"model" "models/map_objects/cinematics/statue.md3"
+"count" "-1"
+"angle" "270"
+"origin" "-2048 87 -128"
 }
 {
 "classname" "misc_model_shield_power_converter"
@@ -489,6 +481,13 @@
 }
 {
 "classname" "misc_model_shield_power_converter"
+"model" "models/map_objects/cinematics/statue.md3"
+"count" "-1"
+"angle" "135"
+"origin" "-1569 -992 -128"
+}
+{
+"classname" "misc_model_shield_power_converter"
 "count" "-1"
 "origin" "-2643 -522 -97"
 }
@@ -544,8 +543,13 @@
 }
 {
 "classname" "info_player_intermission"
-"origin" "-3780 -906 345"
-"angle" "12"
+"target" "start_cam"
+"origin" "-838 -970 -64"
+}
+{
+"classname" "info_notnull"
+"targetname" "start_cam"
+"origin" "-1396 -780 -92"
 }
 {
 "classname" "info_jedimaster_start"
@@ -572,7 +576,7 @@
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "-416 -512 -24"
+"origin" "-672 -512 -64"
 "angle" "180"
 }
 {
@@ -582,7 +586,7 @@
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "-3680 -512 -24"
+"origin" "-3424 -512 -56"
 }
 {
 "classname" "info_player_deathmatch"
@@ -629,33 +633,117 @@
 "angle" "-90"
 }
 {
-"classname" "item_shield_sm_instant"
-"origin" "-2880 1464 15"
+"classname" "weapon_blaster"
+"origin" "-1024 -512 -96"
+}
+{
+"classname" "weapon_bowcaster"
+"origin" "-3072 -512 -96"
+}
+{
+"classname" "weapon_disruptor"
+"origin" "-4448 -512 64"
+}
+{
+"classname" "weapon_demp2"
+"origin" "-2048 1888 64"
+}
+{
+"classname" "weapon_repeater"
+"origin" "-2048 -1536 -96"
+}
+{
+"classname" "weapon_flechette"
+"origin" "-2048 -2912 64"
+}
+{
+"classname" "weapon_rocket_launcher"
+"origin" "-4544 -1536 -112"
+}
+{
+"classname" "weapon_thermal"
+"origin" "-2048 512 -96"
+}
+{
+"classname" "weapon_det_pack"
+"origin" "-1920 -480 48"
+}
+{
+"classname" "weapon_trip_mine"
+"origin" "352 -512 64"
+}
+{
+"classname" "ammo_blaster"
+"origin" "-3024 464 -64"
+"angle" "-45"
+}
+{
+"classname" "ammo_powercell"
+"origin" "-1072 -1488 -64"
+"angle" "-135"
+}
+{
+"classname" "ammo_powercell"
+"origin" "-3384 -1848 0"
+"angle" "135"
+}
+{
+"classname" "ammo_powercell"
+"origin" "-712 824 0"
+"angle" "-45"
+}
+{
+"classname" "ammo_metallic_bolts"
+"origin" "-3024 -1488 -64"
+"angle" "45"
+}
+{
+"classname" "ammo_metallic_bolts"
+"origin" "-1080 456 -64"
+"angle" "45"
+}
+{
+"classname" "ammo_rockets"
+"origin" "-3560 1000 32"
+"angle" "-45"
+}
+{
+"classname" "item_medpak_instant"
+"origin" "-1408 -2048 -16"
+"angle" "20"
+}
+{
+"classname" "item_medpak_instant"
+"origin" "-1384 -2112 -16"
+"angle" "20"
+}
+{
+"classname" "item_medpak_instant"
+"origin" "-1360 -2176 -16"
 "angle" "20"
 }
 {
 "classname" "item_shield_sm_instant"
-"origin" "-2864 1424 15"
+"origin" "-2688 1024 -16"
+"angle" "20"
+}
+{
+"classname" "item_shield_sm_instant"
+"origin" "-2712 1088 -16"
+"angle" "20"
+}
+{
+"classname" "item_shield_sm_instant"
+"origin" "-2736 1152 -16"
 "angle" "20"
 }
 {
 "classname" "item_shield_lrg_instant"
-"origin" "-4045 -1341 15"
-"angle" "20"
+"origin" "-3680 -512 -32"
 }
 {
 "classname" "item_medpac"
-"origin" "-66 302 -1"
-}
-{
-"classname" "item_medpak_instant"
-"origin" "-1216 -2520 16"
-"angle" "20"
-}
-{
-"classname" "item_medpak_instant"
-"origin" "-1232 -2480 16"
-"angle" "20"
+"origin" "-416 -512 -48"
 }
 {
 "classname" "item_seeker"
@@ -671,84 +759,19 @@
 "origin" "-1256 -1304 -112"
 }
 {
-"classname" "weapon_blaster"
-"origin" "-1024 -512 -96"
-}
-{
-"classname" "ammo_blaster"
-"origin" "-1024 -496 -96"
-"angle" "90"
-}
-{
-"classname" "weapon_disruptor"
-"origin" "-2048 -2400 -112"
-}
-{
-"classname" "ammo_powercell"
-"origin" "-2032 -2400 -112"
-}
-{
-"classname" "weapon_bowcaster"
-"origin" "-3072 -512 -96"
-}
-{
-"classname" "ammo_powercell"
-"origin" "-3072 -496 -96"
-"angle" "90"
-}
-{
-"classname" "weapon_repeater"
-"origin" "-2048 -1536 -96"
-}
-{
-"classname" "ammo_metallic_bolts"
-"origin" "-2032 -1536 -96"
-}
-{
-"classname" "weapon_demp2"
-"origin" "-2048 1888 64"
-}
-{
-"classname" "ammo_powercell"
-"origin" "-2032 1888 64"
-}
-{
-"classname" "weapon_flechette"
-"origin" "-2048 -2912 64"
-}
-{
-"classname" "ammo_metallic_bolts"
-"origin" "-2032 -2912 64"
-}
-{
-"classname" "weapon_rocket_launcher"
-"origin" "-2048 1632 -112"
-}
-{
-"classname" "weapon_thermal"
-"origin" "-2048 512 -96"
-}
-{
-"classname" "weapon_trip_mine"
-"origin" "352 -512 64"
-}
-{
-"classname" "weapon_det_pack"
-"origin" "1281 65 -7"
-}
-{
 "classname" "misc_holocron"
-"origin" "-2039 -508 80"
+"count" "0"
+"origin" "-2040 -512 64"
 }
 {
 "classname" "misc_holocron"
 "count" "1"
-"origin" "-3796 1126 72"
+"origin" "-3792 1128 56"
 }
 {
 "classname" "misc_holocron"
 "count" "2"
-"origin" "-3180 -406 -87"
+"origin" "-112 -1088 64"
 }
 {
 "classname" "misc_holocron"
@@ -758,22 +781,22 @@
 {
 "classname" "misc_holocron"
 "count" "4"
-"origin" "-1745 1116 -23"
+"origin" "-1744 1120 -40"
 }
 {
 "classname" "misc_holocron"
 "count" "5"
-"origin" "-2667 -1316 88"
+"origin" "-2664 -1312 72"
 }
 {
 "classname" "misc_holocron"
 "count" "6"
-"origin" "-3576 -1377 46"
+"origin" "-3576 -1376 32"
 }
 {
 "classname" "misc_holocron"
 "count" "7"
-"origin" "-2295 -553 28"
+"origin" "-2296 -552 32"
 }
 {
 "classname" "misc_holocron"
@@ -783,92 +806,35 @@
 {
 "classname" "misc_holocron"
 "count" "9"
-"origin" "-3877 668 40"
+"origin" "-3880 672 24"
 }
 {
 "classname" "misc_holocron"
 "count" "10"
-"origin" "-2721 1654 100"
+"origin" "-2720 1656 88"
 }
 {
 "classname" "misc_holocron"
 "count" "13"
-"origin" "18 750 72"
+"origin" "16 752 56"
 }
 {
 "classname" "misc_holocron"
 "count" "14"
-"origin" "-1047 -639 88"
+"origin" "-1048 -640 72"
 }
 {
 "classname" "misc_holocron"
 "count" "15"
-"origin" "-556 -2002 40"
+"origin" "-560 -2000 24"
 }
 {
 "classname" "misc_holocron"
 "count" "16"
-"origin" "-109 -1092 73"
+"origin" "-3176 -400 -104"
 }
 {
 "classname" "misc_holocron"
 "count" "17"
-"origin" "-3292 -2772 340"
-}
-{
-"classname" "item_shield_lrg_instant"
-"target" "creatorMessage"
-"wait" "5"
-"angle" "180"
-"origin" "-3680 -512 -112"
-}
-{
-"classname" "target_speaker"
-"targetname" "creatorMessage"
-"noise" "sound/interface/secret_area"
-"origin" "-3680 -512 -112"
-}
-{
-"classname" "target_print"
-"targetname" "creatorMessage"
-"message" "Valley\nModded by ^1K^7ev^1i^7n^1'^7' & ^5Fl^7en^5do"
-"spawnflags" "4"
-}
-{
-"classname" "item_ysalimari"
-"target" "cockpit_tele"
-"noglobalsound" "1"
-"count" "-1"
-"wait" "5"
-"angle" "23"
-"origin" "-3035 1852 37"
-}
-{
-"classname" "target_teleporter"
-"targetname" "cockpit_tele"
-"target" "cockpit_pos"
-}
-{
-"classname" "misc_teleporter_dest"
-"targetname" "cockpit_pos"
-"origin" "1255 -91 -31"
-}
-{
-"classname" "item_ysalimari"
-"target" "valley_tele"
-"noglobalsound" "1"
-"count" "-1"
-"wait" "1"
-"origin" "1704 -75 -55"
-}
-{
-"classname" "target_teleporter"
-"targetname" "valley_tele"
-"target" "valley_pos"
-}
-{
-"classname" "misc_teleporter_dest"
-"targetname" "valley_pos"
-"angle" "-70"
-"origin" "-2785 1247 0"
+"origin" "-3288 -2768 328"
 }
