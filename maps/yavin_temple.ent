@@ -6,8 +6,9 @@
 {
 "model" "*3"
 "classname" "trigger_multiple"
-"wait" "1"
+"spawnflags" "1"
 "target" "training_tele1"
+"wait" "1"
 }
 {
 "classname" "target_teleporter"
@@ -17,14 +18,15 @@
 {
 "classname" "misc_teleporter_dest"
 "targetname" "training_pos1"
-"origin" "-64 -200 88"
 "angle" "-90"
+"origin" "-64 -200 88"
 }
 {
 "model" "*3"
 "classname" "trigger_multiple"
-"wait" "1"
+"spawnflags" "1"
 "target" "hallway_tele"
+"wait" "1"
 "origin" "0 -55 0"
 }
 {
@@ -35,12 +37,13 @@
 {
 "classname" "misc_teleporter_dest"
 "targetname" "hallway_pos"
-"origin" "-64 20 88"
 "angle" "90"
+"origin" "-64 20 88"
 }
 {
 "model" "*7"
 "classname" "trigger_multiple"
+"spawnflags" "1"
 "target" "hangar_tele"
 "wait" "1"
 }
@@ -52,21 +55,21 @@
 {
 "classname" "target_position"
 "targetname" "hangar_pos"
-"origin" "-739 -1125 -349"
 "angle" "90"
+"origin" "-739 -1125 -349"
 }
 {
 "model" "*9"
 "origin" "1344 -288 96"
 "classname" "func_door"
-"targetname" "force_stone"
 "spawnflags" "2"
+"targetname" "force_stone"
 "angle" "90"
 "lip" "-128"
 "speed" "80"
 "soundstart" "sound/movers/objects/stone_ledge_out"
-"soundmove" "0"
-"soundstop" "0"
+"soundmove" "sound/null"
+"soundstop" "sound/null"
 }
 {
 "model" "*11"
@@ -122,21 +125,20 @@
 "model" "*24"
 "classname" "func_door"
 "spawnflags" "2"
+"targetname" "force_stone"
 "angle" "270"
 "lip" "-128"
 "speed" "80"
-"targetname" "force_stone"
 "soundstart" "sound/movers/objects/stone_ledge_out"
-"soundmove" "0"
-"soundstop" "0"
+"soundmove" "sound/null"
+"soundstop" "sound/null"
 }
 {
 "model" "*25"
 "classname" "func_door"
-"angle" "360"
-"team" "present"
 "wait" "10"
 "speed" "50"
+"team" "present"
 "soundstart" "sound/movers/doors/door_huge_start"
 "soundmove" "sound/movers/doors/door_huge_move_lp"
 "soundstop" "sound/movers/doors/door_huge_stop"
@@ -145,9 +147,9 @@
 "model" "*26"
 "classname" "func_door"
 "angle" "180"
-"team" "present"
 "wait" "10"
 "speed" "50"
+"team" "present"
 "soundstart" "sound/movers/doors/door_huge_start"
 "soundmove" "sound/movers/doors/door_huge_move_lp"
 "soundstop" "sound/movers/doors/door_huge_stop"
@@ -155,119 +157,110 @@
 {
 "model" "*27"
 "classname" "func_door"
-"team" "base01"
-"wait" "5"
 "angle" "270"
-"speed" "100"
+"wait" "5"
+"team" "base01"
 }
 {
 "model" "*28"
 "classname" "func_door"
 "angle" "90"
-"team" "base01"
 "wait" "5"
-"speed" "100"
+"team" "base01"
 }
 {
 "model" "*29"
 "classname" "func_door"
-"team" "base02"
-"wait" "5"
 "angle" "270"
+"wait" "5"
+"team" "base02"
 }
 {
 "model" "*30"
 "classname" "func_door"
 "angle" "90"
-"team" "base02"
 "wait" "5"
+"team" "base02"
 }
 {
 "model" "*31"
 "classname" "func_door"
-"team" "base03"
-"wait" "5"
 "angle" "270"
+"wait" "5"
+"team" "base03"
 }
 {
 "model" "*32"
 "classname" "func_door"
 "angle" "90"
-"team" "base03"
 "wait" "5"
+"team" "base03"
 }
 {
 "model" "*33"
 "classname" "func_door"
 "spawnflags" "2"
+"targetname" "force_stone"
 "angle" "180"
 "lip" "-128"
 "speed" "80"
-"targetname" "force_stone"
 "soundstart" "sound/movers/objects/stone_ledge_out"
-"soundmove" "0"
-"soundstop" "0"
+"soundmove" "sound/null"
+"soundstop" "sound/null"
 }
 {
 "model" "*34"
 "classname" "func_door"
 "spawnflags" "2"
+"targetname" "force_stone"
 "angle" "-2"
 "speed" "70"
-"targetname" "force_stone"
 "soundstart" "sound/movers/objects/stone_ledge_out"
-"soundmove" "0"
-"soundstop" "0"
+"soundmove" "sound/null"
+"soundstop" "sound/null"
 }
 {
 "model" "*35"
 "classname" "func_door"
-"team" "base04"
 "wait" "5"
-"angle" "360"
+"team" "base04"
 }
 {
 "model" "*36"
 "classname" "func_door"
 "angle" "180"
-"team" "base04"
 "wait" "5"
+"team" "base04"
 }
 {
 "model" "*62"
 "classname" "func_usable"
-"target" "creatorMessage"
 "spawnflags" "8"
+"target" "botswitch"
 "wait" "5"
 }
 {
 "model" "*63"
 "classname" "func_door"
-"targetname" "creatorMessage"
-"sound" "0"
-"lip" "8.02"
-"origin" "0.01 0 0"
-"wait" "5"
+"targetname" "botswitch"
+"lip" "8.06"
 "speed" "5000"
-"angle" "0"
+"wait" "5"
+"sound" "0"
+"origin" "0.05 0 0"
 }
 {
 "classname" "target_speaker"
-"targetname" "creatorMessage"
-"noise" "sound/interface/secret_area"
+"targetname" "botswitch"
+"noise" "sound/movers/switches/button_05"
 "origin" "-1096 -1120 136"
-}
-{
-"classname" "target_print"
-"spawnflags" "4"
-"targetname" "creatorMessage"
-"message" "Yavin Temple\nModded by ^1K^7ev^1i^7n^1'^7' & ^5Fl^7en^5do"
 }
 {
 "model" "*65"
 "classname" "trigger_multiple"
-"wait" "1"
+"spawnflags" "1"
 "target" "seeker_tele"
+"wait" "1"
 "origin" "185 0 25"
 }
 {
@@ -278,14 +271,15 @@
 {
 "classname" "misc_teleporter_dest"
 "targetname" "seeker_pos"
-"origin" "-1000 -960 88"
 "angle" "-180"
+"origin" "-1000 -960 88"
 }
 {
 "model" "*65"
 "classname" "trigger_multiple"
-"wait" "1"
+"spawnflags" "1"
 "target" "training_tele3"
+"wait" "1"
 "origin" "110 0 25"
 }
 {
@@ -301,8 +295,9 @@
 {
 "model" "*65"
 "classname" "trigger_multiple"
-"wait" "1"
+"spawnflags" "1"
 "target" "forceroom_tele"
+"wait" "1"
 "origin" "1795 0 25"
 }
 {
@@ -313,14 +308,14 @@
 {
 "classname" "misc_teleporter_dest"
 "targetname" "forceroom_pos"
-"origin" "1040 -830 88"
-"angle" "90"
+"origin" "872 -960 88"
 }
 {
 "model" "*65"
 "classname" "trigger_multiple"
-"wait" "1"
+"spawnflags" "1"
 "target" "training_tele2"
+"wait" "1"
 "origin" "1870 0 25"
 }
 {
@@ -331,8 +326,8 @@
 {
 "classname" "misc_teleporter_dest"
 "targetname" "training_pos2"
-"origin" "670 -960 88"
 "angle" "180"
+"origin" "670 -960 88"
 }
 {
 "model" "*75"
@@ -340,15 +335,16 @@
 }
 {
 "model" "*21"
-"origin" "-64 320 -504"
 "classname" "func_door"
-"speed" "200"
-"lip" "-558"
-"dmg" "500"
-"angle" "-1"
-"wait" "5"
+"spawnflags" "4"
 "targetname" "lift1"
 "target" "lift1_stopsound"
+"angle" "-1"
+"lip" "-558"
+"speed" "200"
+"wait" "5"
+"dmg" "100"
+"origin" "-64 320 -504"
 "soundstart" "sound/movers/platforms/largeplat_start"
 "soundmove" "sound/movers/platforms/largeplat_move_lp"
 "soundstop" "sound/movers/platforms/largeplat_stop"
@@ -356,62 +352,61 @@
 {
 "model" "*23"
 "classname" "func_door"
+"targetname" "lift1"
 "angle" "90"
 "lip" "4"
-"spawnflags" "8"
-"targetname" "lift1"
 "wait" "9"
 "sound" "0"
 }
 {
 "model" "*37"
 "classname" "trigger_multiple"
-"target" "lift1_delay"
 "spawnflags" "1"
+"target" "lift1_delay"
 "wait" "3"
 }
 {
 "model" "*39"
 "classname" "func_usable"
-"target" "lift1_delay"
 "spawnflags" "8"
-"wait" "3"
+"target" "lift1_delay"
+"wait" "11"
 }
 {
 "model" "*40"
 "classname" "func_door"
 "targetname" "lift1"
-"sound" "0"
-"lip" "4.3"
-"origin" "0 0.3 0"
-"speed" "5000"
 "angle" "90"
+"lip" "4.3"
+"speed" "5000"
 "wait" "11"
+"sound" "0"
+"origin" "0 0.3 0"
 }
 {
 "model" "*41"
 "classname" "trigger_multiple"
-"target" "lift1_delay"
 "spawnflags" "1"
+"target" "lift1_delay"
 "wait" "3"
 }
 {
 "model" "*43"
 "classname" "func_usable"
-"target" "lift1_delay"
 "spawnflags" "8"
-"wait" "3"
+"target" "lift1_delay"
+"wait" "11"
 }
 {
 "model" "*44"
 "classname" "func_door"
 "targetname" "lift1"
-"sound" "0"
-"lip" "4.3"
-"origin" "0 0.3 0"
-"speed" "5000"
 "angle" "90"
+"lip" "4.3"
+"speed" "5000"
 "wait" "11"
+"sound" "0"
+"origin" "0 0.3 0"
 }
 {
 "model" "*60"
@@ -423,63 +418,63 @@
 }
 {
 "classname" "target_speaker"
+"targetname" "lift1"
 "noise" "sound/movers/switches/switch1"
 "origin" "-80 320 120"
-"targetname" "lift1"
 }
 {
 "classname" "target_speaker"
+"targetname" "lift1_stopsound"
 "noise" "sound/movers/switches/switch2"
 "origin" "-64 320 120"
-"targetname" "lift1_stopsound"
 }
 {
 "classname" "target_speaker"
+"targetname" "lift1"
 "noise" "sound/movers/switches/button_06"
 "origin" "-48 320 120"
-"targetname" "lift1"
 }
 {
 "classname" "target_speaker"
+"targetname" "lift1"
 "noise" "sound/movers/switches/switch1"
 "origin" "-72 320 -448"
-"targetname" "lift1"
 }
 {
 "classname" "target_speaker"
+"targetname" "lift1"
 "noise" "sound/movers/switches/button_06"
 "origin" "-56 320 -448"
-"targetname" "lift1"
 }
 {
 "model" "*45"
 "classname" "func_usable"
-"target" "lift2_delay"
 "spawnflags" "8"
-"wait" "3"
+"target" "lift2_delay"
+"wait" "9"
 }
 {
 "model" "*46"
 "classname" "func_door"
 "targetname" "lift2"
-"sound" "0"
 "lip" "4.3"
-"origin" "0.3 0 0"
 "speed" "5000"
-"angle" "0"
 "wait" "9"
+"sound" "0"
+"origin" "0.3 0 0"
 }
 {
 "model" "*47"
-"origin" "272 320 72"
 "classname" "func_door"
-"speed" "200"
-"lip" "-308"
-"dmg" "500"
-"angle" "-1"
-"wait" "5"
+"spawnflags" "4"
 "targetname" "lift2"
 "target" "lift2_stopsound"
+"angle" "-1"
+"lip" "-308"
+"speed" "200"
+"wait" "5"
+"dmg" "100"
+"origin" "272 320 72"
 "soundstart" "sound/movers/platforms/largeplat_start"
 "soundmove" "sound/movers/platforms/largeplat_move_lp"
 "soundstop" "sound/movers/platforms/largeplat_stop"
@@ -487,20 +482,19 @@
 {
 "model" "*48"
 "classname" "func_usable"
-"target" "lift2_delay"
-"wait" "3"
 "spawnflags" "8"
+"target" "lift2_delay"
+"wait" "9"
 }
 {
 "model" "*49"
 "classname" "func_door"
 "targetname" "lift2"
-"sound" "0"
 "lip" "4.3"
-"origin" "0.3 0 0"
 "speed" "5000"
-"angle" "0"
 "wait" "9"
+"sound" "0"
+"origin" "0.3 0 0"
 }
 {
 "model" "*50"
@@ -526,63 +520,64 @@
 }
 {
 "classname" "target_speaker"
+"targetname" "lift2"
 "noise" "sound/movers/switches/switch1"
 "origin" "272 320 440"
-"targetname" "lift2"
 }
 {
 "classname" "target_speaker"
+"targetname" "lift2_stopsound"
 "noise" "sound/movers/switches/switch2"
 "origin" "288 320 440"
-"targetname" "lift2_stopsound"
 }
 {
 "classname" "target_speaker"
+"targetname" "lift2"
 "noise" "sound/movers/switches/button_06"
 "origin" "304 320 440"
-"targetname" "lift2"
 }
 {
 "classname" "target_speaker"
+"targetname" "lift2"
 "noise" "sound/movers/switches/switch1"
 "origin" "280 320 120"
-"targetname" "lift2"
 }
 {
 "classname" "target_speaker"
+"targetname" "lift2"
 "noise" "sound/movers/switches/button_06"
 "origin" "296 320 120"
-"targetname" "lift2"
 }
 {
 "model" "*54"
 "classname" "func_usable"
-"target" "lift3_delay"
-"wait" "3"
 "spawnflags" "8"
+"target" "lift3_delay"
+"wait" "7"
 }
 {
 "model" "*55"
 "classname" "func_door"
 "targetname" "lift3"
-"sound" "0"
-"lip" "4.3"
-"origin" "0 0.3 0"
-"speed" "5000"
 "angle" "90"
+"lip" "4.3"
+"speed" "5000"
 "wait" "7"
+"sound" "0"
+"origin" "0 0.3 0"
 }
 {
 "model" "*56"
-"origin" "-400 288 400"
 "classname" "func_door"
-"speed" "200"
-"lip" "-294"
-"dmg" "500"
-"angle" "-1"
-"wait" "3"
+"spawnflags" "4"
 "targetname" "lift3"
 "target" "lift3_stopsound"
+"angle" "-1"
+"lip" "-294"
+"speed" "200"
+"wait" "3"
+"dmg" "100"
+"origin" "-400 288 400"
 "soundstart" "sound/movers/platforms/largeplat_start"
 "soundmove" "sound/movers/platforms/largeplat_move_lp"
 "soundstop" "sound/movers/platforms/largeplat_stop"
@@ -590,20 +585,20 @@
 {
 "model" "*57"
 "classname" "func_usable"
-"target" "lift3_delay"
-"wait" "3"
 "spawnflags" "8"
+"target" "lift3_delay"
+"wait" "7"
 }
 {
 "model" "*58"
 "classname" "func_door"
 "targetname" "lift3"
-"sound" "0"
-"lip" "4.3"
-"origin" "0 0.3 0"
-"speed" "5000"
 "angle" "90"
+"lip" "4.3"
+"speed" "5000"
 "wait" "7"
+"sound" "0"
+"origin" "0 0.3 0"
 }
 {
 "model" "*59"
@@ -629,33 +624,33 @@
 }
 {
 "classname" "target_speaker"
+"targetname" "lift3"
 "noise" "sound/movers/switches/switch1"
 "origin" "-416 288 760"
-"targetname" "lift3"
 }
 {
 "classname" "target_speaker"
+"targetname" "lift3_stopsound"
 "noise" "sound/movers/switches/switch2"
 "origin" "-400 288 760"
-"targetname" "lift3_stopsound"
 }
 {
 "classname" "target_speaker"
+"targetname" "lift3"
 "noise" "sound/movers/switches/button_06"
 "origin" "-384 288 760"
-"targetname" "lift3"
 }
 {
 "classname" "target_speaker"
+"targetname" "lift3"
 "noise" "sound/movers/switches/switch1"
 "origin" "-408 288 440"
-"targetname" "lift3"
 }
 {
 "classname" "target_speaker"
+"targetname" "lift3"
 "noise" "sound/movers/switches/button_06"
 "origin" "-392 288 440"
-"targetname" "lift3"
 }
 {
 "classname" "target_speaker"
@@ -826,55 +821,97 @@
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_hangar"
-"origin" "696 -1992 -496"
+"origin" "1216 -1600 -496"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_hangar"
-"origin" "-832 -1992 -496"
+"origin" "704 -1984 -496"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_hangar"
-"origin" "-1360 -840 -496"
+"origin" "-64 -1984 -496"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_hangar"
-"origin" "-808 312 -496"
+"origin" "-832 -1984 -496"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_hangar"
-"origin" "744 280 -496"
+"origin" "-1344 -1600 -496"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_hangar"
-"origin" "688 -816 -488"
+"origin" "-1344 -832 -496"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_hangar"
-"origin" "-64 -936 -496"
+"origin" "-1344 -64 -496"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/ambience/yavin/yavin_hangar"
+"origin" "-832 320 -496"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/ambience/yavin/yavin_hangar"
+"origin" "-64 672 -496"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/ambience/yavin/yavin_hangar"
+"origin" "704 320 -496"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/ambience/yavin/yavin_hangar"
+"origin" "1216 -64 -496"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/ambience/yavin/yavin_hangar"
+"origin" "704 -832 -496"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/ambience/yavin/yavin_hangar"
+"origin" "-64 -832 -496"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/ambience/yavin/yavin_hangar"
+"origin" "-736 -832 -496"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_int"
-"origin" "1632 -832 -432"
+"origin" "1632 -936 -432"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_int"
-"origin" "1784 -320 -432"
+"origin" "1688 -192 -432"
 }
 {
 "classname" "target_speaker"
@@ -898,6 +935,12 @@
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_int"
+"origin" "-192 384 760"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/ambience/yavin/yavin_int"
 "origin" "-1096 480 888"
 }
 {
@@ -916,335 +959,175 @@
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_int"
-"origin" "-1424 -1216 952"
+"origin" "-992 -1280 952"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_int"
-"origin" "376 -488 320"
+"origin" "-1856 -1280 952"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_int"
-"origin" "368 -1368 320"
+"origin" "-648 -416 320"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_int"
-"origin" "-504 -1368 320"
+"origin" "-648 -1440 320"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_int"
-"origin" "-504 -488 320"
+"origin" "520 -1440 320"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_int"
-"origin" "-1280 -832 320"
+"origin" "520 -416 320"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_int"
-"origin" "-1280 -1216 320"
+"origin" "-1280 -736 320"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_int"
-"origin" "864 -672 320"
+"origin" "-1280 -1312 320"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_int"
-"origin" "864 96 320"
+"origin" "840 -704 320"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_int"
-"origin" "1632 96 320"
+"origin" "840 144 320"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_int"
-"origin" "1632 -672 320"
+"origin" "1656 -704 320"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_int"
-"origin" "-1296 3240 120"
+"origin" "1656 144 320"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_int"
-"origin" "-608 3240 120"
+"origin" "-1440 3248 128"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/ambience/yavin/yavin_int"
+"origin" "-512 3248 128"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_ext"
-"origin" "-384 1536 300"
+"origin" "-384 1368 312"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_ext"
-"origin" "-384 2392 300"
+"origin" "776 1368 312"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_ext"
-"origin" "576 1944 264"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird1"
-"origin" "576 1944 264"
-"random" "25"
-"wait" "30"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird2"
-"origin" "576 1944 264"
-"random" "25"
-"wait" "30"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird3"
-"origin" "576 1944 264"
-"random" "25"
-"wait" "30"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird4"
-"origin" "576 1944 264"
-"random" "25"
-"wait" "30"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird5"
-"origin" "576 1944 264"
-"random" "25"
-"wait" "30"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird6"
-"origin" "576 1944 264"
-"random" "25"
-"wait" "30"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird7"
-"origin" "576 1944 264"
-"random" "25"
-"wait" "30"
+"origin" "776 2504 312"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_ext"
-"origin" "-1344 1944 264"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird1"
-"origin" "-1344 1944 264"
-"random" "25"
-"wait" "30"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird2"
-"origin" "-1344 1944 264"
-"random" "25"
-"wait" "30"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird3"
-"origin" "-1344 1944 264"
-"random" "25"
-"wait" "30"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird4"
-"origin" "-1344 1944 264"
-"random" "25"
-"wait" "30"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird5"
-"origin" "-1344 1944 264"
-"random" "25"
-"wait" "30"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird6"
-"origin" "-1344 1944 264"
-"random" "25"
-"wait" "30"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird7"
-"origin" "-1344 1944 264"
-"random" "25"
-"wait" "30"
+"origin" "-384 2504 312"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_ext"
-"origin" "128 5088 272"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird1"
-"origin" "128 5088 272"
-"random" "25"
-"wait" "30"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird2"
-"origin" "128 5088 272"
-"random" "25"
-"wait" "30"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird3"
-"origin" "128 5088 272"
-"random" "25"
-"wait" "30"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird4"
-"origin" "128 5088 272"
-"random" "25"
-"wait" "30"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird5"
-"origin" "128 5088 272"
-"random" "25"
-"wait" "30"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird6"
-"origin" "128 5088 272"
-"random" "25"
-"wait" "30"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird7"
-"origin" "128 5088 272"
-"random" "25"
-"wait" "30"
+"origin" "-1544 2504 312"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_ext"
-"origin" "-1352 5088 288"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird1"
-"origin" "-1352 5088 288"
-"random" "25"
-"wait" "30"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird2"
-"origin" "-1352 5088 288"
-"random" "25"
-"wait" "30"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird3"
-"origin" "-1352 5088 288"
-"random" "25"
-"wait" "30"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird4"
-"origin" "-1352 5088 288"
-"random" "25"
-"wait" "30"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird5"
-"origin" "-1352 5088 288"
-"random" "25"
-"wait" "30"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird6"
-"origin" "-1352 5088 288"
-"random" "25"
-"wait" "30"
-}
-{
-"classname" "target_speaker"
-"noise" "sound/ambience/yavin/bird7"
-"origin" "-1352 5088 288"
-"random" "25"
-"wait" "30"
+"origin" "-960 1944 312"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_ext"
-"origin" "128 3992 272"
+"origin" "-960 1944 312"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_ext"
-"origin" "-1352 3992 288"
+"origin" "192 1944 312"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_ext"
-"origin" "-576 4112 232"
+"origin" "-576 3976 312"
 }
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/ambience/yavin/yavin_ext"
-"origin" "-576 5376 360"
+"origin" "320 3976 312"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/ambience/yavin/yavin_ext"
+"origin" "-1536 3976 312"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/ambience/yavin/yavin_ext"
+"origin" "-576 4768 312"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/ambience/yavin/yavin_ext"
+"origin" "-576 5520 312"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/ambience/yavin/yavin_ext"
+"origin" "320 5520 312"
+}
+{
+"classname" "target_speaker"
+"spawnflags" "1"
+"noise" "sound/ambience/yavin/yavin_ext"
+"origin" "-1536 5520 312"
 }
 {
 "classname" "misc_model_shield_power_converter"
@@ -1292,7 +1175,6 @@
 "classname" "misc_model_shield_power_converter"
 "model" "models/map_objects/imp_mine/control_panel.md3"
 "count" "-1"
-"angle" "360"
 "origin" "4 -1960 -512"
 }
 {
@@ -1383,7 +1265,6 @@
 "classname" "misc_model_shield_power_converter"
 "model" "models/map_objects/yavin/glowlight.md3"
 "count" "-1"
-"angle" "360"
 "origin" "-746 3488 128"
 }
 {
@@ -1438,8 +1319,13 @@
 }
 {
 "classname" "info_player_intermission"
-"origin" "-1257 284 920"
-"angle" "-100"
+"target" "start_cam"
+"origin" "-1257 284 1000"
+}
+{
+"classname" "info_notnull"
+"targetname" "start_cam"
+"origin" "-1392 -464 920"
 }
 {
 "classname" "info_jedimaster_start"
@@ -1522,6 +1408,117 @@
 "angle" "180"
 }
 {
+"classname" "weapon_blaster"
+"origin" "-240 1664 64"
+}
+{
+"classname" "weapon_bowcaster"
+"origin" "-480 -672 -496"
+}
+{
+"classname" "weapon_disruptor"
+"origin" "-1288 3248 16"
+}
+{
+"classname" "weapon_demp2"
+"origin" "-400 480 720"
+}
+{
+"classname" "weapon_repeater"
+"origin" "2848 -320 -496"
+}
+{
+"classname" "weapon_flechette"
+"origin" "-1216 4864 -24"
+}
+{
+"classname" "weapon_rocket_launcher"
+"origin" "128 4392 -24"
+}
+{
+"classname" "weapon_thermal"
+"origin" "-928 -1056 -376"
+}
+{
+"classname" "weapon_det_pack"
+"origin" "928 -192 72"
+}
+{
+"classname" "weapon_trip_mine"
+"origin" "104 5088 -24"
+}
+{
+"classname" "ammo_blaster"
+"origin" "-64 -936 112"
+}
+{
+"classname" "ammo_powercell"
+"origin" "2848 0 -472"
+"angle" "-90"
+}
+{
+"classname" "ammo_powercell"
+"origin" "-1280 4304 -16"
+}
+{
+"classname" "ammo_powercell"
+"origin" "-1512 1912 24"
+}
+{
+"classname" "ammo_metallic_bolts"
+"origin" "-640 -864 -496"
+"angle" "-90"
+}
+{
+"classname" "ammo_metallic_bolts"
+"origin" "-1536 1872 24"
+}
+{
+"classname" "ammo_rockets"
+"origin" "-1200 -832 408"
+}
+{
+"classname" "item_medpak_instant"
+"origin" "-64 -768 -496"
+}
+{
+"classname" "item_medpak_instant"
+"origin" "-64 -832 -496"
+}
+{
+"classname" "item_medpak_instant"
+"origin" "-64 -896 -496"
+}
+{
+"classname" "item_medpak_instant"
+"origin" "-1136 -1248 736"
+"angle" "90"
+}
+{
+"classname" "item_medpak_instant"
+"origin" "-1072 -1248 736"
+"angle" "90"
+}
+{
+"classname" "item_medpak_instant"
+"origin" "-1472 1848 48"
+}
+{
+"classname" "item_medpak_instant"
+"origin" "-1472 2040 48"
+"angle" "-10"
+}
+{
+"classname" "item_medpak_instant"
+"origin" "-720 5504 80"
+"angle" "-90"
+}
+{
+"classname" "item_medpak_instant"
+"origin" "-784 5504 80"
+"angle" "-90"
+}
+{
 "classname" "item_shield_sm_instant"
 "origin" "-1344 -1872 -496"
 "angle" "90"
@@ -1553,7 +1550,6 @@
 {
 "classname" "item_shield_lrg_instant"
 "origin" "1280 -640 -496"
-"angle" "180"
 }
 {
 "classname" "item_shield_lrg_instant"
@@ -1572,46 +1568,6 @@
 "origin" "-1344 4544 -32"
 }
 {
-"classname" "item_medpak_instant"
-"origin" "-64 -768 -496"
-}
-{
-"classname" "item_medpak_instant"
-"origin" "-64 -832 -496"
-}
-{
-"classname" "item_medpak_instant"
-"origin" "-64 -896 -496"
-}
-{
-"classname" "item_medpak_instant"
-"origin" "-1136 -1248 736"
-"angle" "90"
-}
-{
-"classname" "item_medpak_instant"
-"origin" "-1072 -1248 736"
-"angle" "90"
-}
-{
-"classname" "item_medpak_instant"
-"origin" "-1472 1848 48"
-}
-{
-"classname" "item_medpak_instant"
-"origin" "-1472 2040 48"
-}
-{
-"classname" "item_medpak_instant"
-"origin" "-720 5504 80"
-"angle" "-90"
-}
-{
-"classname" "item_medpak_instant"
-"origin" "-784 5504 80"
-"angle" "-90"
-}
-{
 "classname" "item_seeker"
 "origin" "-1120 -1304 64"
 }
@@ -1622,75 +1578,6 @@
 {
 "classname" "item_sentry_gun"
 "origin" "64 416 64"
-}
-{
-"classname" "weapon_blaster"
-"origin" "-254 1663 64"
-}
-{
-"classname" "ammo_blaster"
-"origin" "-238 1663 64"
-}
-{
-"classname" "weapon_disruptor"
-"origin" "-1295 3236 16"
-}
-{
-"classname" "ammo_powercell"
-"origin" "-1295 3252 16"
-"angle" "90"
-}
-{
-"classname" "weapon_bowcaster"
-"origin" "-480 -672 -496"
-}
-{
-"classname" "ammo_powercell"
-"origin" "-480 -656 -496"
-"angle" "90"
-}
-{
-"classname" "weapon_repeater"
-"origin" "2848 -320 -496"
-}
-{
-"classname" "ammo_metallic_bolts"
-"origin" "2848 -336 -488"
-"angle" "90"
-}
-{
-"classname" "weapon_demp2"
-"origin" "-392 480 720"
-}
-{
-"classname" "ammo_powercell"
-"origin" "-392 496 720"
-"angle" "-90"
-}
-{
-"classname" "weapon_flechette"
-"origin" "-1216 4864 -24"
-}
-{
-"classname" "ammo_metallic_bolts"
-"origin" "-1216 4880 -16"
-"angle" "-90"
-}
-{
-"classname" "weapon_rocket_launcher"
-"origin" "128 4392 -24"
-}
-{
-"classname" "weapon_thermal"
-"origin" "-928 -1056 -376"
-}
-{
-"classname" "weapon_trip_mine"
-"origin" "96 5088 -24"
-}
-{
-"classname" "weapon_det_pack"
-"origin" "928 -192 72"
 }
 {
 "classname" "misc_holocron"
